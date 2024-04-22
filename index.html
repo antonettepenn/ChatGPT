@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>See World With Us</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      text-align: center;
+    }
+    .location {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .location img {
+      max-width: 40%;
+      border-radius: 10px;
+    }
+    .location-text {
+      max-width: 55%;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    /* Form Styling */
+    .form-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>See World With Us</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#travel">Travel</a>
+      <a href="#book-flights">Book Flights</a>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="home">
+      <h2>Welcome to See World With Us</h2>
+      <p>Explore the beauty of the world with our luxury travel experiences.</p>
+    </section>
+    <section id="travel">
+      <h2>Featured Travel Locations</h2>
+      <div class="location">
+        <img src="location1.jpg" alt="Location 1">
+        <div class="location-text">
+          <h3>Location 1</h3>
+          <p>Description of Location 1.</p>
+          <p>Price: $XXXX</p>
+        </div>
+      </div>
+      <div class="location">
+        <img src="location2.jpg" alt="Location 2">
+        <div class="location-text">
+          <h3>Location 2</h3>
+          <p>Description of Location 2.</p>
+          <p>Price: $XXXX</p>
+        </div>
+      </div>
+    </section>
+    <section id="book-flights">
+      <h2>Book Flights</h2>
+      <div class="form-container">
+        <form action="#" method="post">
+          <h3>Get in Touch</h3>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 See World With Us. All rights reserved.</p>
+  </footer>
+</body>
+</html>
